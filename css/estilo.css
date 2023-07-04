@@ -68,13 +68,13 @@ body.home #Fotos a#Fotos
     width: 180px;
     float: left;
     margin: 0 0 20px -750px;
-    background: orange;
+    
 }
 #primario {
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
+   
 }
 #duas-colunas #primario {
         width: 555px;
@@ -87,14 +87,102 @@ body.home #Fotos a#Fotos
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: red;
+   
 }
+
 #container-rodape { 
 background: #294c71;
 padding: 20px;
 }
+h2{
+    font-size: 1.0em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+.caixa-conteudo { 
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover{
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    color: #a1a1a1;
+    padding-left: 20px;
+}
+label {
+    display: block;
+    cursor: pointer;
+}
+input{
+    padding: 5px;
+    font-size: 0.8em;
+    background-color: #fff;
+    width: 125px;
+}
+input.submit {
+width: 80px;
+color: #fff;
+background: #b10333;
+border: 2px solid #870529;
+
+}
 .caixa{
+    margin: 10px 0;
+    padding: 5px 0 5px 0;
     background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+h3 {
+   text-transform: uppercase;
+   display: inline;
+   font-size: 0.8em;
+   padding: 3px; 
+}
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+.entrevista h3 {
+    background: #b10333;
+    columns: #fff;
+}
+#lista-noticias li {
+padding: 2px;
+border-bottom: 1px solid #ccc;
+height: 62px;
+}
+#lista-noticias li a img {
+float: left;
+margin: 5px;    
+}
+#lista-noticias li a {
+    text-decoration: none;
+      
+     }
+#lista-noticias li a h3 {
+    padding: 0;
+    font-size: 0.8em;  
+}
+#lista-noticias li a p {
+    font-size: 0.7em;    
+}
+#lista-noticias li:hover {
+    background:#eee;
+    cursor: pointer; 
 }
 #rodape {
     width: 750px;
